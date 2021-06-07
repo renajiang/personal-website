@@ -1,11 +1,13 @@
+import '../css/Navbar.css';
+import '../css/App.css';
 import {useEffect, useState} from "react";
 
 function Navbar(props) {
 
     // track which page is active
-    const [home, setHome] = useState("");
-    const [portfolio, setPortfolio] = useState("");
-    const [codeProjects, setCodeProjects] = useState("");
+    const [home, setHome] = useState("link");
+    const [portfolio, setPortfolio] = useState("link");
+    const [codeProjects, setCodeProjects] = useState("link");
 
     useEffect(() => {
         switch(props.currentPage) {
@@ -25,10 +27,11 @@ function Navbar(props) {
   
     return (
         <div className="Navbar">
+            <h1 className="Navbar-header"> Rena Jiang </h1>
             <div className="Navbar-pages">
-                <a className={home} href="/home"> Home </a>
-                <a className={portfolio} href="/portfolio"> Portfolio </a>
-                <a className={codeProjects} href="/codeprojects"> Code Projects </a>
+                <a className={home} href="/home"> HOME </a>
+                <a className={portfolio} href="/portfolio"> PORTFOLIO </a>
+                <a className={codeProjects} href="/codeprojects"> CODE PROJECTS </a>
             </div>
         </div>
     )

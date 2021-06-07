@@ -1,7 +1,55 @@
-.Home {
-  background-color: rgb(32, 32, 32);
+.Navbar {
+  padding-top: 8px;
+  padding-bottom: 20px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
 }
 
-.Home-logo {
-  width: 100vw
+h1 {
+  font-family: 'haloregular', "Arial Black", sans-serif;
+  font-size: 30px;
+  color: rgb(32, 32, 32);
 }
+
+.Navbar-pages a {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.link {
+  color: rgb(32, 32, 32);
+  padding: 10px 10px;
+}
+
+.active {
+  color: #9c9c9c;
+  padding: 10px 10px;
+}
+
+@font-face {
+  font-family: 'haloregular';
+  src: url('fonts/halo.regular-webfont.woff2') format('woff2'),
+  url('fonts/halo.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'uni_sansheavy_caps';
+    src: url('fonts/uni_sans_heavy-webfont.woff2') format('woff2'),
+    url('fonts/uni_sans_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'uni_sansthin_caps';
+    src: url('fonts/uni_sans_thin-webfont.woff2') format('woff2'),
+    url('fonts/uni_sans_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
