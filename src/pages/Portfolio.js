@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from "./Footer";
 
 function Portfolio() {
 
@@ -6,6 +7,7 @@ function Portfolio() {
         <div className="Portfolio">
             <Navbar currentPage="portfolio"/>
             portfolio
+            <Footer/>
         </div>
     );
 }

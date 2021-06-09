@@ -1,4 +1,5 @@
 import Navbar from './Navbar'
+import Footer from "./Footer";
 
 function Home() {
 
@@ -6,6 +7,7 @@ function Home() {
         <div className="Home">
             <Navbar currentPage="home"/>
             home
+            <Footer/>
         </div>
     );
 }

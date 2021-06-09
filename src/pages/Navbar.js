@@ -12,13 +12,13 @@ function Navbar(props) {
     useEffect(() => {
         switch(props.currentPage) {
             case 'home':
-                setHome("active");
+                setHome('active');
                 break;
             case 'portfolio':
-                setPortfolio("active");
+                setPortfolio('active');
                 break;
             case 'codeProjects':
-                setCodeProjects("active");
+                setCodeProjects('active');
                 break;
             default:
                 return;
@@ -29,9 +29,9 @@ function Navbar(props) {
         <div className="Navbar">
             <h1 className="Navbar-header"> Rena Jiang </h1>
             <div className="Navbar-pages">
-                <a className={home} href="/home"> HOME </a>
-                <a className={portfolio} href="/portfolio"> PORTFOLIO </a>
-                <a className={codeProjects} href="/codeprojects"> CODE PROJECTS </a>
+                <a className={home} href='/home'> HOME </a>
+                <a className={portfolio} href='/portfolio'> PORTFOLIO </a>
+                <a className={codeProjects} href='/codeprojects'> CODE PROJECTS </a>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import Home from './Home'
-import logo from "../images/home-logo.png";
+import logo from "../images/logos/home-logo.png";
+import Footer from "./Footer";
 
 function Landing() {
 
@@ -7,6 +8,7 @@ function Landing() {
         <div className="Landing">
             <img className="Home-logo" src={logo} alt="Homepage Logo"/>
             <a className={Home} href="/home"> Enter </a>
+            <Footer/>
         </div>
     );
 }

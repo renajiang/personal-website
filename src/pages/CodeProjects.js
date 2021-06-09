@@ -1,4 +1,5 @@
 import Navbar from './Navbar';
+import Footer from "./Footer";
 
 function CodeProjects() {
 
@@ -6,6 +7,7 @@ function CodeProjects() {
         <div className="CodeProjects">
             <Navbar currentPage="codeProjects"/>
             code projects
+            <Footer/>
         </div>
     );
 }
