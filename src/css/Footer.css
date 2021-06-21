@@ -11,22 +11,14 @@ h3 {
   color: rgb(238, 238, 238);
 }
 
-.Footer-links a {
+.Footer-links-wrapper a {
   font-family: 'avenir light', "Arial Black", sans-serif;
   color: rgb(238, 238, 238);
   padding: 10px 10px;
   text-decoration: none;
 }
 
-.active {
-  color: #9c9c9c;
-  padding: 10px 10px;
-}
-
-@font-face {
-  font-family: 'haloregular';
-  src: url('fonts/halo.regular-webfont.woff2') format('woff2'),
-  url('fonts/halo.regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+.Footer-link-logo {
+  max-height: 22px;
+  max-width: 22px;
 }

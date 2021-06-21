@@ -4,6 +4,7 @@ import App from "./App";
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import CodeProjects from './pages/CodeProjects';
+import About from './pages/About';
 
 class AppRouter extends React.Component {
     render() {
@@ -16,7 +17,7 @@ class AppRouter extends React.Component {
                         <Route path='/home' component={Home} />
                         <Route path='/portfolio' component={Portfolio} />
                         <Route path='/codeprojects' component={CodeProjects} />
-                        {/*redirect links*/}
+                        <Route path='/about' component={About} />
                     </Switch>
                 </div>
             </BrowserRouter>

@@ -1,12 +1,11 @@
-import Navbar from './Navbar'
-import Footer from "./Footer";
+import Navbar from '../bars/Navbar'
+import Footer from "../bars/Footer";
 
 function Home() {
 
     return (
         <div className="Home">
             <Navbar currentPage="home"/>
-            home
             <Footer/>
         </div>
     );

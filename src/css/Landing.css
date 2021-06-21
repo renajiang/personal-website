@@ -1,0 +1,47 @@
+.Landing-header {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  text-decoration: none;
+}
+
+.Landing a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'haloregular', "Arial Black", sans-serif;
+  font-size: 30px;
+  color: rgb(32, 32, 32);
+}
+
+.Landing-body {
+  background-color: black;
+  align-content: center;
+}
+
+.Landing-logo {
+  display: block;
+  margin: auto;
+  width: 90vw;
+  overflow: hidden;
+}
+
+.Landing-enter {
+  display: block;
+  font-family: 'haloregular', "Arial Black", sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  margin-left: 47%; /* TODO: make true center */
+  transform: translateY(-30px);
+}
+
+@font-face {
+  font-family: 'haloregular';
+  src: url('fonts/halo.regular-webfont.woff2') format('woff2'),
+  url('fonts/halo.regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
