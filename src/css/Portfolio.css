@@ -1,0 +1,43 @@
+.Portfolio-categories {
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Portfolio-category {
+  align-self: center;
+  flex-basis: 50vw;
+  text-align: center;
+  vertical-align: middle;
+}
+
+Portfolio-category h3 {
+  color: white;
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  height: 50vmax;
+}
+
+#Portfolio-fine {
+  height: 50vmax;
+  background-image: url(../images/art/fine/waves2020.jpg);
+  background-size: cover;
+}
+
+#Portfolio-fine:hover {
+  -webkit-filter: brightness(60%);
+  cursor: pointer;
+}
+
+#Portfolio-gd {
+  height: 50vmax;
+  background-image: url(../images/art/gd/rs3.6.png);
+  background-size: cover;
+}
+
+#Portfolio-gd:hover {
+  -webkit-filter: brightness(60%);
+  cursor: pointer;
+}
