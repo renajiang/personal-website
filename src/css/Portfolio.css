@@ -20,6 +20,8 @@ Portfolio-category h3 {
   height: 50vmax;
 }
 
+/*FINE*/
+
 #Portfolio-fine {
   height: 50vmax;
   background-image: url(../images/art/fine/waves2020.jpg);
@@ -29,11 +31,14 @@ Portfolio-category h3 {
 #Portfolio-fine:hover {
   -webkit-filter: brightness(60%);
   cursor: pointer;
+  color: white;
 }
+
+/*GD*/
 
 #Portfolio-gd {
   height: 50vmax;
-  background-image: url(../images/art/gd/rs3.6.png);
+  background-image: url(../images/art/fine/matilda2020.jpg);
   background-size: cover;
 }
 
