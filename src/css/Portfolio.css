@@ -1,10 +1,10 @@
 .Portfolio-categories {
-  background-color: black;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  height: 80vh;
 }
 
 .Portfolio-category {
@@ -14,35 +14,13 @@
   vertical-align: middle;
 }
 
-Portfolio-category h3 {
-  color: white;
+.Portfolio-categories h1 {
+  font-family: 'avenir', "Arial Black", sans-serif;
+}
+
+.Portfolio-categories a {
   font-family: 'avenir light', "Arial Black", sans-serif;
-  height: 50vmax;
-}
-
-/*FINE*/
-
-#Portfolio-fine {
-  height: 50vmax;
-  background-image: url(../images/art/fine/waves2020.jpg);
-  background-size: cover;
-}
-
-#Portfolio-fine:hover {
-  -webkit-filter: brightness(60%);
-  cursor: pointer;
-  color: white;
-}
-
-/*GD*/
-
-#Portfolio-gd {
-  height: 50vmax;
-  background-image: url(../images/art/fine/matilda2020.jpg);
-  background-size: cover;
-}
-
-#Portfolio-gd:hover {
-  -webkit-filter: brightness(60%);
-  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 4px;
 }

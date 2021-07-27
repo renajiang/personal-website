@@ -1,0 +1,68 @@
+/*Artwork function*/
+
+.Paintings-Artwork {
+  margin-top: 2.5vh;
+  margin-bottom:2.5vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+
+.Paintings-Artwork-img {
+  order: 1;
+  width: 40%;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.Paintings-Artwork-text {
+  order: 2;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  /*background-color: aliceblue;*/
+}
+
+.Paintings-Artwork-text h1 {
+  font-family: 'avenir', "Arial Black", sans-serif;
+  font-size: 28px;
+  color: rgb(32, 32, 32);
+  margin-bottom: 4vh;
+}
+
+.Paintings-Artwork-text h3 {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  color: rgb(32, 32, 32);
+}
+
+.Paintings-Artwork-img img {
+  width: 100%;
+  height: auto;
+}
+
+/*Paintings function*/
+
+.Paintings-header {
+  margin-left: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.Paintings-header a, .Paintings-header h1 {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  color: rgb(102, 102, 102);
+  display: inline;
+  font-size: 20px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.Paintings-gallery {
+  /*margin-top: 5vh;*/
+  margin-bottom: 5vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}

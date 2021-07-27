@@ -14,7 +14,10 @@ function About() {
                 </div>
                 <div className='About-col' id='About-text'>
                     <h3> hello world! </h3>
-                    <p> I'm Rena (she/her), a junior studying Computer Science at Brown University with interests in digital and fine arts. I grew up in Shanghai, China, before moving to Orlando, FL after graduating high school, and hope to be based in New York City after graduating college. </p>
+                    <p> I'm Rena (she/her), a junior concentrating in Computer Science (Sc.B)
+                        and Visual Arts (A.B) at Brown University. I grew up in Shanghai, China,
+                        before moving to Orlando, FL after graduating high school,
+                        and hope to be based in New York City after graduating college. </p>
                 </div>
             </div>
             <Footer/>

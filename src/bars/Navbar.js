@@ -33,7 +33,7 @@ function Navbar(props) {
             <h1 className="Navbar-header"> Rena Jiang </h1>
             <div className="Navbar-pages">
                 <a className={home} href='/home'> HOME </a>
-                <a className={portfolio} href='/portfolio'> PORTFOLIO </a>
+                <a className={portfolio} href='/portfolio'> ART PORTFOLIO </a>
                 <a className={codeProjects} href='/codeprojects'> CODE PROJECTS </a>
                 <a className={about} href='/about'> ABOUT </a>
             </div>
