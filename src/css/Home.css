@@ -4,6 +4,10 @@
 
 .Home-logo {
   background-color: black;
+  height: 85vh;
+  background-image: url(/src/images/logos/renajiang-logo.gif);
+  background-size: contain;
+  background-position: center;
 }
 
 .Home-gif {

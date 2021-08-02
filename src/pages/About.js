@@ -9,10 +9,10 @@ function About() {
         <div className='About'>
             <Navbar currentPage='about'/>
             <div className='About-body'>
-                <div className='About-col' id='About-pic'>
-                    <img src={pic} alt="Profile"/>
+                <div className='About-pic-wrapper'>
+                    <img className='About-pic' src={pic} alt="Profile"/>
                 </div>
-                <div className='About-col' id='About-text'>
+                <div className='About-text'>
                     <h3> hello world! </h3>
                     <p> I'm Rena (she/her), a junior concentrating in Computer Science (Sc.B)
                         and Visual Arts (A.B) at Brown University. I grew up in Shanghai, China,

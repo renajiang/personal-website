@@ -3,34 +3,30 @@
   flex-flow: row wrap;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.About-col {
-  align-self: center;
-  flex-basis: 40vw;
+.About-pic-wrapper {
+  margin: 10vh auto;
+  flex-basis: 20vw;
 }
 
-#About-pic {
-  margin-left: 10vw;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  flex-grow: 1;
-  flex-shrink: 0;
+.About-pic {
+  max-width: 90vw;
 }
 
-#About-text {
-  margin-right: 10vw;
-  flex-grow: 4;
-  flex-shrink: 3;
+.About-text {
+  margin: 0 auto 10vh;
+  max-width: 70vw;
+  flex-basis: 50vw;
 }
 
-#About-text h3 {
+.About-text h3 {
   color: black;
   font-family: 'haloregular', "Arial Black", sans-serif;
 }
 
-#About-text p {
+.About-text p {
   color: black;
   font-family: 'avenir light', "Arial Black", sans-serif;
 }

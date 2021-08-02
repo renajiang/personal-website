@@ -1,24 +1,48 @@
 .Footer {
-  padding-top: 8px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 16px;
   background-color: rgb(32, 32, 32);
-  text-align: center;
+  height: 2vh;
 }
 
-h3 {
+.Footer-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  padding-right: 2vw;
+}
+
+.Footer-links h3 {
   font-family: 'avenir light', light, sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   color: rgb(238, 238, 238);
+  padding: 0;
+  margin: 0;
 }
 
-.Footer-links-wrapper a {
+.Footer-links a {
   font-family: 'avenir light', "Arial Black", sans-serif;
+  font-size: 14px;
   color: rgb(238, 238, 238);
-  padding: 10px 10px;
   text-decoration: none;
 }
 
+.Footer-header {
+  margin-right: 1vw;
+}
+
+.Footer-link {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-left: 5px;
+}
+
 .Footer-link-logo {
-  max-height: 22px;
-  max-width: 22px;
+  max-height: 20px;
+  max-width: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }

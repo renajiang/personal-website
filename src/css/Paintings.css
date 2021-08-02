@@ -12,16 +12,22 @@
 
 .Paintings-Artwork-img {
   order: 1;
-  width: 40%;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin: 0 2vw;
+  flex-basis: 50vw;
+  /*flex-grow: 2;*/
+}
+
+.Paintings-Artwork-src {
+  max-height: 80vh;
+  width: auto;
+  object-fit: contain;
 }
 
 .Paintings-Artwork-text {
   order: 2;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  /*background-color: aliceblue;*/
+  margin: 0 2vw;
+  flex-basis: 30vw;
+  /*flex-grow: 1;*/
 }
 
 .Paintings-Artwork-text h1 {
@@ -59,10 +65,35 @@
 }
 
 .Paintings-gallery {
-  /*margin-top: 5vh;*/
   margin-bottom: 5vh;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.main-gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }

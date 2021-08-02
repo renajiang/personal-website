@@ -1,10 +1,22 @@
+.Portfolio-body-wrapper {
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
 .Portfolio-categories {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   align-items: center;
-  justify-content: center;
-  height: 80vh;
+  justify-content: flex-start;
+  width: 500px;
+  height: 500px;
+  max-width: 85vw;
+  margin: auto;
+  padding-bottom: 25px;
+  border: 2px solid black;
 }
 
 .Portfolio-category {
@@ -16,11 +28,12 @@
 
 .Portfolio-categories h1 {
   font-family: 'avenir', "Arial Black", sans-serif;
+  margin: 40px 0;
 }
 
 .Portfolio-categories a {
   font-family: 'avenir light', "Arial Black", sans-serif;
   text-decoration: none;
   color: black;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
