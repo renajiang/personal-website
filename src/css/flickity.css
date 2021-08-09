@@ -89,10 +89,10 @@ https://flickity.metafizzy.co
 }
 
 .flickity-prev-next-button.previous {
-  left: 10px;
+  left: 4vw;
 }
 .flickity-prev-next-button.next {
-  right: 10px;
+  right: 4vw;
 }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
@@ -119,7 +119,7 @@ https://flickity.metafizzy.co
   width: 100%;
   bottom: 0;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 10px 0 50px;
   list-style: none;
   text-align: center;
   line-height: 0;

@@ -30,7 +30,7 @@ function Artwork(props) {
 function Paintings() {
 
     const flickityOptions = {
-        initialIndex: 2
+        initialIndex: 0
     }
 
     return (
@@ -44,7 +44,6 @@ function Paintings() {
             <Flickity
                 className='Paintings-carousel' // default ''
                 options={flickityOptions} // takes flickity options {}
-                disableImagesLoaded={false} // default false
             >
                 <div className='Paintings-cell'>
                     <Artwork className='Paintings-item'

@@ -1,8 +1,7 @@
 .Footer {
-  padding-top: 12px;
-  padding-bottom: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: rgb(32, 32, 32);
-  height: 2vh;
 }
 
 .Footer-links {
@@ -11,7 +10,7 @@
   justify-content: flex-end;
   align-content: center;
   align-items: center;
-  padding-right: 2vw;
+  padding-right: 3vw;
 }
 
 .Footer-links h3 {

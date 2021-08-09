@@ -1,13 +1,12 @@
 .Navbar {
-  padding-top: 8px;
-  padding-bottom: 20px;
+  padding: 15px 10px 15px;
   background-color: rgb(238, 238, 238);
   text-align: center;
 }
 
 h1 {
   font-family: 'haloregular', "Arial Black", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   color: rgb(32, 32, 32);
 }
 

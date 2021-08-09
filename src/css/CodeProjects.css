@@ -1,0 +1,25 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.Project-Card {
+  width: 90vw;
+  max-width: 1000px;
+  margin: 5vh auto;
+}
+
+.nav-link {
+  color: #9c9c9c;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+a:hover {
+  color: currentColor;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+

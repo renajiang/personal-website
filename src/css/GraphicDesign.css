@@ -1,0 +1,14 @@
+.GD-header {
+  margin-left: 7vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.GD-header a, .GD-header h1 {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  color: rgb(102, 102, 102);
+  display: inline;
+  font-size: 19px;
+  font-style: normal;
+  text-decoration: none;
+}

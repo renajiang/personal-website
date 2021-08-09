@@ -18,7 +18,7 @@
 }
 
 .Paintings-Artwork-src {
-  max-height: 80vh;
+  max-height: 75vh;
   width: auto;
   min-width: 325px;
   object-fit: contain;
@@ -31,26 +31,27 @@
 
 .Paintings-Artwork-text {
   order: 2;
-  margin: 0 2vw;
-  flex-basis: 30vw;
+  margin: 4vh 1vw 0;
+  flex-basis: 32vw;
 }
 
 .Paintings-Artwork-text h1 {
   font-family: 'avenir', "Arial Black", sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   color: rgb(32, 32, 32);
   margin-bottom: 4vh;
 }
 
 .Paintings-Artwork-text h3 {
   font-family: 'avenir light', "Arial Black", sans-serif;
+  font-size: 18px;
   color: rgb(32, 32, 32);
 }
 
 /*Paintings function*/
 
 .Paintings-header {
-  margin-left: 5vw;
+  margin-left: 7vw;
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -59,18 +60,14 @@
   font-family: 'avenir light', "Arial Black", sans-serif;
   color: rgb(102, 102, 102);
   display: inline;
-  font-size: 20px;
+  font-size: 19px;
   font-style: normal;
   text-decoration: none;
 }
 
-/*.Paintings-gallery {*/
-/*  margin-bottom: 5vh;*/
-/*  display: flex;*/
-/*  flex-flow: column wrap;*/
-/*  justify-content: center;*/
-/*  align-items: flex-end;*/
-/*}*/
+.Paintings-header h1 {
+  font-family: 'avenir', "Arial Black", sans-serif;
+}
 
 .Paintings-carousel {
   height: auto;
