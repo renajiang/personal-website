@@ -18,10 +18,10 @@ class AppRouter extends React.Component {
                         {/*pages*/}
                         <Route path='/' component={App} exact={true} />
                         <Route path='/home' component={Home} />
-                        <Route path='/portfolio' component={ArtPortfolio} />
-                        <Route path='/paintings-drawings' component={Paintings} />
-                        <Route path='/graphic-design' component={GraphicDesign} />
-                        <Route path='/sculpture' component={Sculpture} />
+                        <Route exact path='/portfolio' component={ArtPortfolio}/>
+                        <Route path='/portfolio/paintings-drawings' component={Paintings} />
+                        <Route path='/portfolio/graphic-design' component={GraphicDesign} />
+                        <Route path='/portfolio/sculpture' component={Sculpture} />
                         <Route path='/codeprojects' component={CodeProjects} />
                         <Route path='/about' component={About} />
                     </Switch>

@@ -76,29 +76,6 @@ function Paintings() {
                              medium='Charcoal on Newsprint' src={figure1}/>
                 </div>
             </Flickity>
-
-            {/*<div className='Paintings-gallery'>*/}
-            {/*    <Artwork className='Paintings-item'*/}
-            {/*             title='Untitled (Waves)' date='2020'*/}
-            {/*             dimension='25" x 25"'*/}
-            {/*             medium='Oil on Canvas' src={waves}/>*/}
-            {/*    <Artwork className='Paintings-item'*/}
-            {/*             title='Untitled (Boy Eats Chocolate Cake)' date='2020'*/}
-            {/*             dimension='20" x 25"'*/}
-            {/*             medium='Oil on Canvas' src={matilda}/>*/}
-            {/*    <Artwork className='Paintings-item'*/}
-            {/*             title='Figure Studies 1' date='2018'*/}
-            {/*             dimension='36" x 24" and 24" x 24"'*/}
-            {/*             medium='Charcoal on Newsprint' src={figure}/>*/}
-            {/*    <Artwork className='Paintings-item'*/}
-            {/*             title='Saturn Devouring His Son (mastercopy)' date='2021'*/}
-            {/*             dimension='40" x 30"'*/}
-            {/*             medium='Oil on Canvas' src={saturn}/>*/}
-            {/*    <Artwork className='Paintings-item'*/}
-            {/*             title='Figure Studies 2' date='2018'*/}
-            {/*             dimension='18" x 10"'*/}
-            {/*             medium='Charcoal on Newsprint' src={figure1}/>*/}
-            {/*</div>*/}
             <Footer/>
         </div>
     );
