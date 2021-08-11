@@ -71,11 +71,32 @@ function CodeProjects() {
         <div className="CodeProjects">
             <Navbar currentPage="codeProjects"/>
             <Project
-                header={'Software Engineering Final Project'}
                 title={'SpotiFynd'}
-                description={'A web app that uses the Spotify API to match users based on similar music interests'}
+                description={'A web app that uses the Spotify API to match users based on similar music interests.'}
                 langs={'Java, Spark, SQL, React JS, HTML, CSS'}
                 link={'https://github.com/cs0320-2021/term-project-adai10-dhan22-ksoda-rjiang6'}
+            />
+            <Project
+                title={'renajiang.com'}
+                description={'You are here! Personal website to showcase art and code portfolios.'}
+                langs={'React JS, HTML, CSS'}
+                link={'https://github.com/renajiang/personal-website'}
+            />
+            <Project
+                title={'Maps'}
+                description={'A map of Providence, RI rendered using the HTML canvas element ' +
+                'that supports panning, zooming, and finding the shortest path between two points' +
+                ' using Dijkstra\'s algorithm.'}
+                langs={'Java, Spark, SQL, React JS, HTML, CSS'}
+                link={'https://github.com/renajiang/personal-website'}
+            />
+            <Project
+                title={'Stars'}
+                description={'A web app that finds neighbouring stars from any other star or ' +
+                'coordinate location in database of over a ten thousand stars in the Milky Way ' +
+                'using a k-D tree algorithm.'}
+                langs={'Java, Spark, SQL, React JS, HTML, CSS'}
+                link={'https://github.com/renajiang/personal-website'}
             />
             <Footer/>
         </div>

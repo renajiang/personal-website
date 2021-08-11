@@ -4,21 +4,25 @@
   align-content: center;
   align-items: center;
   justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .About-pic-wrapper {
   margin: 10vh auto;
-  flex-basis: 20vw;
+  flex-basis: 10vw;
 }
 
 .About-pic {
-  max-width: 90vw;
+  width: 400px;
+  max-width: 80vw;
+  height: auto;
 }
 
 .About-text {
   margin: 0 auto 10vh;
   max-width: 70vw;
-  flex-basis: 50vw;
+  flex-basis: 35vw;
 }
 
 .About-text h3 {
