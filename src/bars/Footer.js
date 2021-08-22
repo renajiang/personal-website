@@ -13,11 +13,18 @@ function Footer() {
                 </div>
                 <div className='Footer-link' id="Footer-github">
                     <img className="Footer-link-logo" src={githubLogo} alt="Github Logo"/>
-                    <a target="_blank" rel="noreferrer" className="Footer-link" href="https://github.com/renajiang"> Github </a>
+                    <a target="_blank" rel="noreferrer" className="Footer-link"
+                       href="https://github.com/renajiang">
+                        Github
+                    </a>
                 </div>
                 <div className='Footer-link' id="Footer-linkedin">
                     <img className="Footer-link-logo" src={linkedinLogo} alt="Github Logo"/>
-                    <a target="_blank" rel="noreferrer" className="Footer-link" href="https://www.linkedin.com/in/rena-jiang-8244a6202/"> LinkedIn </a>
+                    <a target="_blank" rel="noreferrer"
+                       className="Footer-link"
+                       href="https://www.linkedin.com/in/renaljiang/">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>

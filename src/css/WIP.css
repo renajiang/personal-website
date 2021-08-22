@@ -1,9 +1,5 @@
 .WIP-body {
   height: 70vh;
-  /*background-image: url("/src/images/WIP-background.png");*/
-  /*background-size: contain;*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center center;*/
   display: flex;
   flex-flow: column;
   justify-content: center;
