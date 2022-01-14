@@ -1,0 +1,82 @@
+/*Paintings*/
+
+.Art-label-wrapper {
+  position: fixed;
+}
+
+@media screen and (min-width: 600px) {
+  .Art-label-wrapper {
+    display: inline;
+    height: 50vh;
+    width: 15vw;
+    left: 0;
+    margin-left: 1vw;
+    margin-top: 10vh;
+  }
+  .Art-gallery {
+    width: 81vw;
+    margin-left: 17vw;
+    margin-top: 5vh;
+  }
+  .Art-label h1 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .Art-label h3 {
+    font-size: 15px;
+    line-height: 110%;
+  }
+  .Art-label a {
+    margin-top: 80vh;
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .Art-label-wrapper {
+    background-color: rgba(255,255,255,0.6);
+    z-index: 2;
+    height: auto;
+    width: 100vw;
+    bottom: 0;
+  }
+  .Art-gallery {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 3vh;
+  }
+  .Art-label h1 {
+    font-size: 12px;
+    padding-bottom: 5px;
+    line-height: 0%;
+  }
+  .Art-label h3 {
+    font-size: 10px;
+    line-height: 0%;
+    margin:0 ;
+  }
+  .Art-label-left {
+    align-self: left;
+  }
+}
+
+/*Label*/
+
+.Art-label {
+  padding: 20px;
+  text-align: right;
+}
+
+.Art-label h1 {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  color: black
+}
+
+.Art-label h3 {
+  font-family: 'avenir light', "Arial Black", sans-serif;
+  color: rgb(63, 63, 63)
+}
+
+.Art-label a {
+  text-decoration: none;
+}

@@ -6,8 +6,8 @@ import ArtPortfolio from './pages/ArtPortfolio';
 import CodeProjects from './pages/CodeProjects';
 import About from './pages/About';
 import Paintings from "./pages/Paintings";
-import GraphicDesign from "./pages/GraphicDesign";
-import Sculpture from "./pages/Sculpture";
+import Installations from "./pages/Installations";
+import Drawings from "./pages/Drawings";
 
 class AppRouter extends React.Component {
     render() {
@@ -19,9 +19,9 @@ class AppRouter extends React.Component {
                         <Route path='/' component={App} exact={true} />
                         <Route path='/home' component={Home} />
                         <Route exact path='/portfolio' component={ArtPortfolio}/>
-                        <Route path='/portfolio/paintings-drawings' component={Paintings} />
-                        <Route path='/portfolio/graphic-design' component={GraphicDesign} />
-                        <Route path='/portfolio/sculpture' component={Sculpture} />
+                        <Route path='/portfolio/paintings' component={Paintings} />
+                        <Route path='/portfolio/installations' component={Installations} />
+                        <Route path='/portfolio/drawings' component={Drawings} />
                         <Route path='/codeprojects' component={CodeProjects} />
                         <Route path='/about' component={About} />
                     </Switch>

@@ -139,7 +139,7 @@ function CodeProjects() {
                 description={'A map of Providence, RI that operates through a REPL and is rendered using the ' +
                 'HTML canvas element. This map is built using a SQLite database of coordinates of nodes and ways that ' +
                 'represent the streets of Providence. Features include panning, zooming, and returning the shortest ' +
-                'path between two points provided by the user by clicking on the map or inputting street names'}
+                'path between two points provided by the user by clicking on the map or inputting street names.'}
                 langs={'Java, Spark, SQL, React, HTML, CSS'}
                 algos={'This map uses a series of SQL calls to retrieve the corresponding ways from the SQLite database ' +
                 'and display them to the user. A k-D tree is built with all nodes in the database to retrieve the ' +

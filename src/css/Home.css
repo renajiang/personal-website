@@ -1,13 +1,51 @@
 .Home {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(210, 210, 210);
 }
 
-.Home-logo {
-  background-color: black;
-  height: 85vh;
+.Home-logo1 {
+  height: 90vh;
   background-image: url(/src/images/logos/renajiang-logo.gif);
-  background-size: contain;
+  background-size: 55vh;
   background-position: center;
+}
+
+.Home-pics {
+  opacity: 80%;
+}
+
+.Home-pic1 {
+  position: absolute;
+  top: 79vh;
+  right: 15vw;
+  width: 8vmax;
+}
+
+.Home-pic2 {
+  position: absolute;
+  top: 50vh;
+  right: 5vw;
+  width: 10vmax;
+}
+
+.Home-pic3 {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  width: 15vmax;
+}
+
+.Home-pic4 {
+  position: absolute;
+  top: 70vh;
+  left: 5vw;
+  width: 10vmax;
+}
+
+.Home-pic5 {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+  width: 5vmax;
 }
 
 .Home-gif {

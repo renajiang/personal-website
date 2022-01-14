@@ -14,9 +14,9 @@ function ArtPortfolio() {
                     <div className='Portfolio-body-wrapper'>
                         <div className='Portfolio-categories'>
                             <h1>contents</h1>
-                            <a href={`${url}/paintings-drawings`}> paintings & drawings </a>
-                            <a href={`${url}/sculpture`}> sculpture </a>
-                            <a href={`${url}/graphic-design`}> graphic design </a>
+                            <a href={`${url}/paintings`}> paintings  </a>
+                            <a href={`${url}/drawings`}> drawings </a>
+                            <a href={`${url}/installations`}> installations </a>
                         </div>
                     </div>
                 <Footer/>
