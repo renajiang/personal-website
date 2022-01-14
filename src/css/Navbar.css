@@ -15,16 +15,12 @@ h1 {
   font-size: 14px;
   text-align: center;
   text-decoration: none;
-}
-
-.link {
   color: rgb(32, 32, 32);
   padding: 10px 10px;
 }
 
-.active {
+.Navbar-pages a:hover {
   color: #9c9c9c;
-  padding: 10px 10px;
 }
 
 @font-face {

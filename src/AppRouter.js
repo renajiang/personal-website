@@ -8,6 +8,7 @@ import About from './pages/About';
 import Paintings from "./pages/Paintings";
 import Installations from "./pages/Installations";
 import Drawings from "./pages/Drawings";
+import Tattoo from './pages/Tattoo';
 
 class AppRouter extends React.Component {
     render() {
@@ -20,6 +21,7 @@ class AppRouter extends React.Component {
                         <Route path='/home' component={Home} />
                         <Route exact path='/portfolio' component={ArtPortfolio}/>
                         <Route path='/portfolio/paintings' component={Paintings} />
+                        <Route path='/portfolio/tattoo' component={Tattoo} />
                         <Route path='/portfolio/installations' component={Installations} />
                         <Route path='/portfolio/drawings' component={Drawings} />
                         <Route path='/codeprojects' component={CodeProjects} />
