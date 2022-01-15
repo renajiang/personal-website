@@ -9,9 +9,9 @@
   background-position: center;
 }
 
-/* .Home-pics {
-  opacity: 80%;
-} */
+.Home-pics {
+  opacity: 50%;
+}
 
 .Home-pic1 {
   position: absolute;
