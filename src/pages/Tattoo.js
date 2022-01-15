@@ -15,6 +15,10 @@ import pvd from '../images/art/tattoos/pvd.png';
 import pvd2 from '../images/art/tattoos/pvd2.png';
 import rose from '../images/art/tattoos/rose.png';
 import turtle from '../images/art/tattoos/turtle.png';
+import sun from '../images/art/tattoos/sun.png';
+import bun from '../images/art/tattoos/bun.png';
+import mush from '../images/art/tattoos/mush.png';
+import fan from '../images/art/tattoos/fan.png';
 
 function Tattoo() {
 
@@ -25,27 +29,7 @@ function Tattoo() {
             height: 1
         },
         {
-            src: char,
-            width: 1,
-            height: 1
-        },
-        {
-            src: heart,
-            width: 1,
-            height: 1
-        },
-        {
-            src: hearts,
-            width: 1,
-            height: 1
-        },
-        {
-            src: k,
-            width: 1,
-            height: 1
-        },
-        {
-            src: ocean,
+            src: glass,
             width: 1,
             height: 1
         },
@@ -60,12 +44,32 @@ function Tattoo() {
             height: 1
         },
         {
-            src: pvd,
+            src: char,
             width: 1,
             height: 1
         },
         {
-            src: pvd2,
+            src: heart,
+            width: 1,
+            height: 1
+        },
+        {
+            src: ocean,
+            width: 1,
+            height: 1
+        },
+        {
+            src: hearts,
+            width: 1,
+            height: 1
+        },
+        {
+            src: k,
+            width: 1,
+            height: 1
+        },
+        {
+            src: pvd,
             width: 1,
             height: 1
         },
@@ -75,40 +79,53 @@ function Tattoo() {
             height: 1
         },
         {
+            src: sun,
+            width: 1,
+            height: 1
+        },
+        {
+            src: pvd2,
+            width: 1,
+            height: 1
+        },
+        {
             src: turtle,
+            width: 1,
+            height: 1
+        },
+        {
+            src: mush,
+            width: 1,
+            height: 1
+        },
+        {
+            src: bun,
+            width: 1,
+            height: 1
+        },
+        {
+            src: fan,
             width: 1,
             height: 1
         }
     ];
 
+    console.log('hello')
+
     const [label, setLabel] = useState(
         <div className='Art-label'>
             <h1> 2020-2021 </h1>
             <h3> ink, needles, stencil, greensoap </h3>
+            <a href={'instagram.com/jankypoker'}> @jankypoker </a>
         </div>
     )
-
-    const getInfo = useCallback((event, { photo, index }) => {
-        const temp = []
-        temp.push(
-            <div className='Art-label'>
-                <h1> {photo.title} </h1>
-                <h3> {photo.date} </h3>
-                <h3 className= 'Art-label-left' style={{display:'inline'}}> {photo.dimensions}, </h3>
-                <h3 className= 'Art-label-left' style={{display:'inline'}}> {photo.medium} </h3>
-            </div>
-        );
-        setLabel(temp);
-        console.log("title:", photo.title);
-        console.log("date:", photo.date);
-      }, []);
 
     return (
         <div className='Tattoo'>
             <Navbar currentPage='portfolio'/>
             <div className='Art-label-wrapper'> {label} </div>
             <div className='Art-gallery'>
-                <Gallery photos={tattoos} direction={"column"} onClick={getInfo}/>
+                <Gallery photos={tattoos} direction={"row"} targetRowHeight={150}/>
             </div>
         </div>
     );

@@ -21,7 +21,7 @@ class AppRouter extends React.Component {
                         <Route path='/home' component={Home} />
                         <Route exact path='/portfolio' component={ArtPortfolio}/>
                         <Route path='/portfolio/paintings' component={Paintings} />
-                        <Route path='/portfolio/tattoo' component={Tattoo} />
+                        <Route path='/tattoo' component={Tattoo} />
                         <Route path='/portfolio/installations' component={Installations} />
                         <Route path='/portfolio/drawings' component={Drawings} />
                         <Route path='/codeprojects' component={CodeProjects} />

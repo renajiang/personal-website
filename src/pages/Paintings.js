@@ -127,14 +127,6 @@ function Paintings() {
         console.log("title:", photo.title);
         console.log("date:", photo.date);
       }, []);
-      
-
-    function showDescription() {
-        getInfo();
-        return (
-            <h1 style={{position: 'absolute'}}> bathtub </h1>
-        )
-    };
 
     return (
         <div className='Paintings'>
