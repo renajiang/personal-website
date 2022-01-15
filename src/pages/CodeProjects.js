@@ -56,6 +56,20 @@ function Project(props) {
         }
     }
 
+    function getDemo() {
+        if (props.demo) {
+            return (
+                <div>
+                    <br/>
+                    <Card.Title>Demo</Card.Title>
+                    <a target="_blank" rel="noreferrer" href={props.demo}>
+                        View demo here
+                    </a>
+                </div>
+            )
+        }
+    }
+
     function getCardBody(which) {
         if (which === 'about') {
             return (
@@ -72,6 +86,7 @@ function Project(props) {
                     <Card.Text>{props.langs}</Card.Text>
                     {getAlgos()}
                     {getSpecs()}
+                    {getDemo()}
                 </Card.Body>
             );
         } else {
@@ -112,6 +127,13 @@ function CodeProjects() {
     return (
         <div className="CodeProjects">
             <Navbar currentPage="codeProjects"/>
+            <Project
+                title={'OpenGL Cabin'}
+                description={'This project uses OpenGl shapes to create a 360 degree, 3-dimensional scene of a cabin interor in a snow mountain environment. Main features include texture mapping, terrain mapping, particle generation, and collision detection. An interactive UI allows users to control snow size and rate, snow level, terrain jaggedness, and thrown snowballs.'}
+                langs={'OpenGL, C++'}
+                algos={'All shader programs, textures, scene, terrain, and particles initialised with their respective textures loaded once upon initialisation. The snowy terrain environment is generated with a triangle strip mesh with randomly generated y-coordinate values to mimic a natural irregular surface and bicubic interpolation to smooth out jagged edges. A collision is calculated and detected when a snowball intersects the window plane, resulting in an explosion into smaller particles. OpenGL\'s paintGL() draws each tessellated component, whose vertices are defined in header files. Mouse movements are tracked to update camera view and projecction matrices accordingly to support panning.'}
+                demo={'https://drive.google.com/file/d/1EBZMj7VRtCHF8akB7dIf-Hnk2slgpkfj/view?usp=sharing'}
+            />
             <Project
                 title={'SpotiFynd'}
                 description={'SpotiFynd is a web app that utilises the Spotify API to connect listeners with close ' +

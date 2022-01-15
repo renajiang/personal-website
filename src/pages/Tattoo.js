@@ -1,6 +1,5 @@
 import '../css/Gallery.css';
 import Navbar from '../bars/Navbar';
-import {useState, useCallback} from "react";
 import Gallery from "react-photo-gallery";
 import a from '../images/art/tattoos/a.png';
 import char from '../images/art/tattoos/char.png';
@@ -112,18 +111,16 @@ function Tattoo() {
 
     console.log('hello')
 
-    const [label, setLabel] = useState(
-        <div className='Art-label'>
-            <h1> 2020-2021 </h1>
-            <h3> ink, needles, stencil, greensoap </h3>
-            <a href={'instagram.com/jankypoker'}> @jankypoker </a>
-        </div>
-    )
-
     return (
         <div className='Tattoo'>
             <Navbar currentPage='portfolio'/>
-            <div className='Art-label-wrapper'> {label} </div>
+            <div className='Art-label-wrapper'> 
+                <div className='Art-label'>
+                    <h1> 2020-2021 </h1>
+                    <h3> ink, needles, stencil, greensoap </h3>
+                    <a href={'instagram.com/jankypoker'}> @jankypoker </a>
+                </div>
+            </div>
             <div className='Art-gallery'>
                 <Gallery photos={tattoos} direction={"row"} targetRowHeight={150}/>
             </div>
