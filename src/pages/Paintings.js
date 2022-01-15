@@ -21,7 +21,7 @@ function Paintings() {
             src: bathtub,
             width: 3,
             height: 4,
-            title: "untitled: man, guitar, and bathtub",
+            title: "untitled (man, guitar, and bathtub)",
             date: 2021,
             dimensions: '60" x 72"',
             medium: "oil on canvas"
@@ -30,7 +30,7 @@ function Paintings() {
             src: matilda,
             width: 5,
             height: 4,
-            title: "untitled: boy eats cake",
+            title: "untitled (boy eats cake)",
             date: 2020,
             dimensions: '20" x 25"',
             medium: "oil on canvas"
@@ -46,7 +46,7 @@ function Paintings() {
             src: goat,
             width: 3,
             height: 4,
-            title: "untitled: the goat and the dance (work in progress)",
+            title: "untitled unfinished (the goat and the dance)",
             date: 2021,
             dimensions: '84" x 66"',
             medium: "oil on canvas"
@@ -55,7 +55,7 @@ function Paintings() {
             src: fifty1,
             width: 2,
             height: 4,
-            title: "untitled: 50 paintings",
+            title: "untitled (50 paintings)",
             date: 2021,
             dimensions: '7" x 5"',
             medium: "oil on canvas"
@@ -64,7 +64,7 @@ function Paintings() {
             src: fifty2,
             width: 3,
             height: 4,
-            title: "untitled: 50 paintings",
+            title: "untitled (50 paintings)",
             date: 2021,
             dimensions: '7" x 5"',
             medium: "oil on canvas"
@@ -73,7 +73,7 @@ function Paintings() {
             src: fifty3,
             width: 4,
             height: 3,
-            title: "untitled: 50 paintings",
+            title: "untitled (50 paintings)",
             date: 2021,
             dimensions: '7" x 5"',
             medium: "oil on canvas"
@@ -89,7 +89,7 @@ function Paintings() {
             src: waves,
             width: 1,
             height: 1,
-            title: "untitled: waves",
+            title: "untitled (waves)",
             date: 2020,
             dimensions: '25" x 25"',
             medium: "oil on canvas"

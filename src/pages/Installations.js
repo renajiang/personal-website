@@ -13,7 +13,7 @@ function Installations() {
             src: linen1,
             width: 3,
             height: 4,
-            title: "untitled: linen",
+            title: "untitled (linen)",
             date: 2021,
             dimensions: '60" x 72"',
             medium: "canvas, newsprint, gesso"
@@ -22,7 +22,7 @@ function Installations() {
             src: linen2,
             width: 3,
             height: 4,
-            title: "untitled: linen",
+            title: "untitled (linen)",
             date: 2021,
             dimensions: '60" x 72"',
             medium: "canvas, newsprint, gesso"
@@ -31,7 +31,7 @@ function Installations() {
             src: linen3,
             width: 3,
             height: 4,
-            title: "untitled: linen",
+            title: "untitled (linen)",
             date: 2021,
             dimensions: '60" x 72"',
             medium: "canvas, newsprint, gesso"
