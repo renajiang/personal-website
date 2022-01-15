@@ -74,6 +74,7 @@
 
 .Art-label a {
   text-decoration: none;
+  font-family: 'avenir light', "Arial Black", sans-serif;
   font-size: smaller;
   color: rgb(63, 63, 63);
 }

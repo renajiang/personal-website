@@ -4,15 +4,33 @@
   text-align: center;
 }
 
-h1 {
-  font-family: 'haloregular', "Arial Black", sans-serif;
-  font-size: 28px;
-  color: rgb(32, 32, 32);
+@media screen and (min-width: 600px) {
+  .Navbar h1 {
+    font-family: 'haloregular', "Arial Black", sans-serif;
+    font-size: 28px;
+    color: rgb(32, 32, 32);
+  }
+  .Navbar-pages a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .Navbar {
+    padding: 15px 10px 10px;
+  }
+  .Navbar h1 {
+    font-family: 'haloregular', "Arial Black", sans-serif;
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+  }
+  .Navbar-pages a {
+    font-size: 11px;
+  }
 }
 
 .Navbar-pages a {
   font-family: 'avenir light', "Arial Black", sans-serif;
-  font-size: 14px;
   text-align: center;
   text-decoration: none;
   color: rgb(32, 32, 32);

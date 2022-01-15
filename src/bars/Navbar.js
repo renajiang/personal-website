@@ -4,7 +4,7 @@ function Navbar(props) {
   
     return (
         <div className="Navbar">
-            <h1 className="Navbar-header"> Rena Jiang </h1>
+            <h1 className="Navbar-header"> RENA JIANG </h1>
             <div className="Navbar-pages">
                 <a href='/home'> HOME </a>
                 <a href='/portfolio'> VISUAL ART </a>
