@@ -13,10 +13,41 @@ import goat from '../images/art/paintings/goat.jpg';
 import bathtub from '../images/art/paintings/bathtub.jpg';
 import studio from '../images/art/paintings/studio1.jpg';
 import stretcher from '../images/art/paintings/stretcher.jpg';
+import qsgy from '../images/art/paintings/qsgy.jpg';
+import cke from '../images/art/paintings/cke.jpg';
+import heirloom from '../images/art/paintings/heirloom.jpg';
 
 function Paintings() {
 
     const paintings = [
+        
+        {
+            src: qsgy,
+            width: 3,
+            height: 4,
+            title: "untitled (work in progress) (qian shou guan yin)",
+            date: 2022,
+            dimensions: '72" x 60"',
+            medium: "oil on canvas"
+        },
+        {
+            src: cke,
+            width: 5,
+            height: 4,
+            title: "untitled (still from cheungking express)",
+            date: 2022,
+            dimensions: '20" x 25"',
+            medium: "oil on canvas"
+        },
+        {
+            src: heirloom,
+            width: 4,
+            height: 3,
+            title: "untitled (pocket gems)",
+            date: 2022,
+            dimensions: '20" x 16"',
+            medium: "oil on canvas"
+        },
         {
             src: bathtub,
             width: 3,

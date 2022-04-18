@@ -9,48 +9,13 @@
   background-position: center;
 }
 
-.Home-pics {
-  opacity: 50%;
-}
-
-.Home-pic1 {
+.Home-intro {
   position: absolute;
-  top: 79vh;
-  right: 15vw;
-  width: 8vmax;
-}
-
-.Home-pic2 {
-  position: absolute;
-  top: 50vh;
-  right: 5vw;
-  width: 10vmax;
-}
-
-.Home-pic3 {
-  position: absolute;
-  top: 40vh;
-  left: 50vw;
-  width: 15vmax;
-}
-
-.Home-pic4 {
-  position: absolute;
-  top: 70vh;
-  left: 5vw;
-  width: 10vmax;
-}
-
-.Home-pic5 {
-  position: absolute;
-  top: 20vh;
   left: 20vw;
-  width: 5vmax;
+  top: 25vh;
 }
 
-.Home-gif {
-  display: block;
-  margin: auto;
-  width: 90vw;
-  overflow: hidden;
+.Home-intro p {
+  color: white;
+  font-family: 'avenir light', "Arial Black", sans-serif;
 }
