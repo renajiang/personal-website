@@ -8,7 +8,7 @@ function Drawings() {
     return (
         <div className='Drawings'>
             <Navbar currentPage='portfolio'/>
-            <WIP date='june 2022'/>
+            <WIP date='winter 2022'/>
             <Footer/>
         </div>
     );

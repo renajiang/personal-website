@@ -13,19 +13,87 @@ import goat from '../images/art/paintings/goat.jpg';
 import bathtub from '../images/art/paintings/bathtub.jpg';
 import studio from '../images/art/paintings/studio1.jpg';
 import stretcher from '../images/art/paintings/stretcher.jpg';
-import qsgy from '../images/art/paintings/qsgy.jpg';
 import cke from '../images/art/paintings/cke.jpg';
 import heirloom from '../images/art/paintings/heirloom.jpg';
+import qsgy1 from '../images/art/paintings/qsgy1.jpg';
+import qsgy2 from '../images/art/paintings/qsgy2.jpg';
+import qsgy3 from '../images/art/paintings/qsgy3.jpg';
+import womb from '../images/art/paintings/womb.JPG';
+import cocoon1 from '../images/art/paintings/cocoon1.jpg';
+import cocoon2 from '../images/art/paintings/cocoon2.JPG';
+
 
 function Paintings() {
 
     const paintings = [
-        
         {
-            src: qsgy,
+            src: cocoon2,
+            width: 9,
+            height: 10,
+            title: "untitled (cocoon)",
+            date: 2022,
+            dimensions: '"28 x 25"',
+            medium: "oil on canvas"
+        },
+        {
+            src: womb,
             width: 3,
             height: 4,
-            title: "untitled (work in progress) (qian shou guan yin)",
+            title: "untitled (womb)",
+            date: 2022,
+            dimensions: '16" x 12"',
+            medium: "oil on canvas"
+        },
+        {
+            src: heirloom,
+            width: 4,
+            height: 3,
+            title: "untitled (pocket gems)",
+            date: 2022,
+            dimensions: '20" x 16"',
+            medium: "oil on canvas"
+        },
+        {
+            src: cocoon1,
+            width: 3,
+            height: 4,
+            title: "untitled (cocoon), detail shot",
+            date: 2022,
+            dimensions: '"28 x 25"',
+            medium: "oil on canvas"
+        },
+        {
+            src: matilda,
+            width: 5,
+            height: 4,
+            title: "untitled (boy eats cake)",
+            date: 2020,
+            dimensions: '20" x 25"',
+            medium: "oil on canvas"
+        },
+        {
+            src: qsgy3,
+            width: 5,
+            height: 7,
+            title: "untitled (qian shou guan yin)",
+            date: 2022,
+            dimensions: '72" x 60"',
+            medium: "oil on canvas"
+        },
+        {
+            src: bathtub,
+            width: 3,
+            height: 4,
+            title: "untitled (man, guitar, and bathtub)",
+            date: 2021,
+            dimensions: '60" x 72"',
+            medium: "oil on canvas"
+        },
+        {
+            src: qsgy2,
+            width: 3,
+            height: 4,
+            title: "untitled (qian shou guan yin), detail shot",
             date: 2022,
             dimensions: '72" x 60"',
             medium: "oil on canvas"
@@ -40,30 +108,12 @@ function Paintings() {
             medium: "oil on canvas"
         },
         {
-            src: heirloom,
-            width: 4,
-            height: 3,
-            title: "untitled (pocket gems)",
-            date: 2022,
-            dimensions: '20" x 16"',
-            medium: "oil on canvas"
-        },
-        {
-            src: bathtub,
+            src: qsgy1,
             width: 3,
             height: 4,
-            title: "untitled (man, guitar, and bathtub)",
-            date: 2021,
-            dimensions: '60" x 72"',
-            medium: "oil on canvas"
-        },
-        {
-            src: matilda,
-            width: 5,
-            height: 4,
-            title: "untitled (boy eats cake)",
-            date: 2020,
-            dimensions: '20" x 25"',
+            title: "untitled (qian shou guan yin), , detail shot",
+            date: 2022,
+            dimensions: '72" x 60"',
             medium: "oil on canvas"
         },
         {
